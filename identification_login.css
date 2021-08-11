@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Playfair+Display:ital@1&family=Rubik:wght@700&display=swap');
+
+.percentage_div{
+    background-color: #64b5f6;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-left: 450px;
+}
+
+#percentage_value{
+    font-size: 270px;
+    margin-left: 150px;
+    font-weight:100;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: #b71c1c;
+}
+
+hr{
+    border: none;
+    height:5px;
+    width:90%;
+    align-self: center;;
+    background:#004d40;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#instructions{
+    text-align: center;
+    font-size: 22px;
+}
+.proceed_home_div{
+    margin-left: 400px;
+}
+
+#proceed_button, #home_button{
+    height:60px;
+    margin-left:60px;
+    width:280px;
+    /* border:none; */
+    border-width:thick;
+    border-color:#004d40;
+    background-color: #00bcd4;
+    color:#004d40;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+#logout {
+    height:60px;
+    margin-left:60px;
+    width:280px;
+    /* border:none; */
+    border-width:thick;
+    border-color:#004d40;
+    background-color: #00bcd4;
+    color:#004d40;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+    align :left ;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" >
+        <title>Person Identification -  Login!</title>
+          <link rel="stylesheet" href="loginPage.css">
+          <script src="loginPage.js" async></script>
+</head>
+<body>
+        <!-- heading -->
+        <h2>Login Process </h2>
+        <p id="instructions">Please fill all the fields as per the instructions. It is to <span>identify 'YOU' as 'YOU'!</span></p>
+        <hr><!-- heading -->
+
+        <!-- box for email and password -->
+        <!--form-- class="login_form" action="#" method="post">
+                  <h3>Login form</h3>
+                  <label for="login_email" class = "label-text">E-mail id:<br><input type="email" name="login_email" id="login_email" value="" required></label>
+                  <label for="login_password" class="label-text">Enter Password:<br><input type="password" name="login_password" id="login_password" value="" required></label>
+                  <div class="label-text">
+                          <input type="submit" name="submit" value="Submit" id="log_submit">
+                          <input type="reset" name="reset" value="Clear">
+                </div>
+                <p id="login_error_message"></p>
+        </form-->
+        <hr>
+
+        <!-- read and type the passage1 -->
+        <div class="login_read_and_type_the_passage1">
+                <h3>Read and Type the Passage 1</h3>
+                <p class="t1">This is a typing test. This test is performed to calculate your typing speed. </p>
+                <p class="t1">Instructions:<br>Your goal is to duplicate the provided text, <span class="b">EXACTLY</span>, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+                <section class = "login_test-area1">
+                        <div class="login_timings1">
+                                <!--timer starts from here -->
+                                <section id="login_clock1" class="label-text">
+                                        <div class="login_timer1">00:00:00</div>
+                                </section>
+                                <button id="login_reset1" class="label-text">RESET</button>
+                      </div>
+                      <div class="login_original_text1">
+                                <p class="login_passage1">Hello</p>
+                      </div>
+                      <div class="login_test-wrapper1">
+                                <textarea id="login_test-area1" name="textarea" rows="7" cols="66" placeholder="The clock starts when you start typing."></textarea>
+                      </div><!-- .test-wrapper -->
+                </section>
+        </div>
+        <hr>
+
+        <!-- read and type the passage2 -->
+        <div class="login_read_and_type_the_passage2">
+                <h3>Read and Type the Passage 2</h3>
+                <p  class="t2">This is a typing test. This test is performed to calculate your typing speed. </p>
+                <p  class="t2">Instructions:<br>Your goal is to duplicate the provided text, <span class="b">EXACTLY</span>, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+                <section class = "login_test-area2">
+                        <div class="login_timings2">
+                                <!--timer starts from here -->
+                                <section id="login_clock2" class="label-text">
+                                        <div class="login_timer2">00:00:00</div>
+                                </section>
+                                <button id="login_reset2" class="label-text">RESET</button>
+                      </div>
+                      <div class="login_original_text2">
+                                <p class="login_passage2">Hello</p>
+                      </div>
+                      <div class="login_test-wrapper2">
+                                <textarea id="login_test-area2" name="textarea" rows="7" cols="66" placeholder="The clock starts when you start typing."></textarea>
+                      </div><!-- .test-wrapper -->
+                </section>
+        </div>
+        <hr>
+
+        <!-- thank you! -->
+        <div class="login_footer">
+                <h3 class="thankyou">Thank You!</h3>
+                <p id="last">We thank you for patiently participating in the Login process. <br>Please click <span>'Final Submit'</span> button to <span>CHECK YOUR IDENTITY</span>.</p>
+                <div class="lastbutton">
+                        <input type="submit" name="login_finalSubmit" value="Final Submit" id="login_final_submit">
+                        <button type="button" name="login_button" id="login_cancel_all">Cancel</button>
+                </div>
+        </div>
+        <hr><hr>
+</body>
+</html>

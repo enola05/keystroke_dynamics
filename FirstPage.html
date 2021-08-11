@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" >
+    <title>E-learning with key strock</title>
+    <link rel="stylesheet" href="FirstPage.css">
+    <script type="text/javascript">
+          function buttonclick(){
+            window.location="register.php"
+          }
+          function loginclick(){
+            window.location = "loginForm.php";
+          }
+    </script>
+  </head>
+  <body>
+    <h1>E-learning with Student Identification with Keystrokes</h1>
+    <hr>
+        <div class="btn-1">
+          <input type="button" name="teacher_signup" class = "signup_button" value="Student Login" onclick="loginclick()">
+          <input type="button" name="student_signup" class = "signup_button" value="Student Signup" onclick="buttonclick()">
+        </div>
+        <h3>About the Project</h3>
+        <hr class="footer_line">
+        <p>This projects is a prototype to identify students by using speed of typing, pressure applied during a keypress, time taken between two consecutive spaces, etc. This will help us to identify a student during online essay typing assessments.</p>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Playfair+Display:ital@1&family=Rubik:wght@700&display=swap');
+
+hr{
+    border: none;
+    height:5px;
+    width:90%;
+    align-self: center;;
+    background:#004d40;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    /*box*/
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Open Sans', sans-serif;
+    color:#00695c;
+    text-decoration: underline;
+}
+
+#instructions{
+    text-align: center;
+    font-size: 18px;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+#question{
+    text-align: center;
+    font-size: 22px;
+}
+
+span{
+    color: #b71c1c;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.answer_div{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #80cbc4;
+}
+
+#answer{
+    color:#004d40;
+    text-align:left;
+    font-size: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #004d40;
+    background-color: white;
+    width:1040px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+.submit_clear_div{
+    margin-left: 400px;
+}
+#error_message{
+    font-weight:bold;
+    font-size: 22px;
+    margin-left: 20px;
+    color:#e0f2f1;
+}
+input[type="submit"],input[type="reset"], #home_button{
+    height:60px;
+    margin-left:60px;
+    width:280px;
+    /* border:none; */
+    border-width:thick;
+    border-color:#004d40;
+    background-color: #00bcd4;
+    color:#004d40;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+#home_button{
+    margin-left:610px;
+    margin-top: 10px;
+}
